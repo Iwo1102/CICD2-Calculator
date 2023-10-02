@@ -1,0 +1,2 @@
+B. The above exercise uses @RequestParam
+C. @RequestParam would be correct for this example as they are more flexible when having multiple parameters.
