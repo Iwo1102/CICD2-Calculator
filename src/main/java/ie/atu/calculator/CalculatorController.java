@@ -23,6 +23,10 @@ public class CalculatorController {
                 calc.setTotal(a * b);
                 calc.setOperation("multiply");
                 break;
+            case "divide":
+                calc.setTotal(a / b);
+                calc.setOperation("divide");
+                break;
             default:
                 calc.setOperation("NULL");
                 calc.setTotal(0);
