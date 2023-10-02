@@ -14,9 +14,13 @@ public class CalculatorController {
             calc.setTotal(a + b);
             calc.setOperation("add");
         }
-        if (operator.equals("subtract")) {
+        else if (operator.equals("subtract")) {
             calc.setTotal(a - b);
             calc.setOperation("subtract");
+        }
+        else if (operator.equals("multiply")) {
+            calc.setTotal(a * b);
+            calc.setOperation("multiply");
         }
         return calc;
     }
